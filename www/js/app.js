@@ -5,28 +5,24 @@
 // the 2nd parameter is an array of 'requires'
 var myApp = angular.module('starter', ['ionic']);
 
-myApp.controller('SlideCtrl', ['$scope', '$ionicSlideBoxDelegate',
-  function ($scope, $ionicSlideBoxDelegate) {
-    
-    // Goes to the next Slide.
-    $scope.nextSlide = function () {
-      $ionicSlideBoxDelegate.next();
+myApp.controller('ModalCtrl', ['$scope', '$ionicModal',
+  function($scope, $ionicModal) {
+    $ionicModal.fromTemplateUrl('my-modal.htm', {
+      scope: $scope,
+      animation: 'slide-in-up'
+    })
+    .then(function (modal) {
+      $scope.modal = modal;
+    });
+
+    $scope.openModal = function () {
+      $scope.modal.show();
     };
 
-    // Goes to the previous slide.
-    $scope.previousSlide = function () {
-      $ionicSlideBoxDelegate.previous();
+    $scope.closeModal = function () {
+      $scope.modal.hide();
     };
-
-    // Counts the Number of slides.
-    $scope.slideCount = function () {
-      return $ionicSlideBoxDelegate.slidesCount();
-    };
-
-    //Returns number. The index of the current slide.
-    $scope.slideIndex = function () {
-      return $ionicSlideBoxDelegate.currentIndex();
-    };
+  
   }
 ]);
 

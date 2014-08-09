@@ -156,24 +156,18 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width\">\n    <title></title>\n\n    <link href=\"lib/ionic/css/ionic.css\" rel=\"stylesheet\">\n    <link href=\"css/style.css\" rel=\"stylesheet\">\n\n    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above\n    <link href=\"css/ionic.app.css\" rel=\"stylesheet\">\n    -->\n\n    <!-- ionic/angularjs js -->\n    <script src=\"lib/ionic/js/ionic.bundle.js\"></script>\n\n    <!-- cordova script (this will be a 404 during development) -->\n    <script src=\"cordova.js\"></script>\n\n    <!-- your app's js -->\n    <script src=\"js/app.js\"></script>\n  </head>\n  \n  <body ng-app=\"starter\" ng-controller=\"SlideCtrl\">\n    <ion-slide-box>\n      <ion-slide>\n        <div class=\"box blue\">\n          <button ng-click=\"nextSlide()\">Next slide</button>\n        </div>\n      </ion-slide>\n      <ion-slide>\n        <div class=\"box red\">\n        <button ng-click=\"previousSlide()\">previous</button>\n        Slide 2! \n        </div>\n      </ion-slide>\n    </ion-slide-box>\n  </body>\n</html>\n\n\n\n\n\n\n\n",
 			"file": "www/index.html",
-			"file_size": 1158,
-			"file_write_time": 130520677540000000,
 			"settings":
 			{
-				"buffer_size": 1159,
+				"buffer_size": 1142,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "// Ionic Starter App\n\n// angular.module is a global place for creating, registering and retrieving Angular modules\n// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)\n// the 2nd parameter is an array of 'requires'\nvar myApp = angular.module('starter', ['ionic']);\n\nmyApp.controller('SlideCtrl', ['$scope', '$ionicSlideBoxDelegate',\n  function ($scope, $ionicSlideBoxDelegate) {\n    \n    // Goes to the next Slide.\n    $scope.nextSlide = function () {\n      $ionicSlideBoxDelegate.next();\n    };\n\n    // Goes to the previous slide.\n    $scope.previousSlide = function () {\n      $ionicSlideBoxDelegate.previous();\n    };\n\n    $scope.slideCount = function () {\n      $ionicSlideBoxDelegate.slidesCount();\n    };\n  }\n]);\n\n\n\n\n",
 			"file": "www/js/app.js",
-			"file_size": 683,
-			"file_write_time": 130520677560000000,
 			"settings":
 			{
-				"buffer_size": 773,
+				"buffer_size": 736,
 				"line_ending": "Unix"
 			}
 		},
@@ -276,6 +270,7 @@
 	},
 	"file_history":
 	[
+		"/Users/nonnycode/Documents/lab/studyApp/www/js/app.js",
 		"/Users/nonnycode/Documents/lab/RESTANGULAR.js",
 		"/Users/nonnycode/Documents/lab/todo/www/lib/angular-mocks/angular-mocks.js",
 		"/Users/nonnycode/Documents/lab/todo/www/index.html",
@@ -402,8 +397,7 @@
 		"/Users/nonnycode/Documents/lab/smashingNode/Chapter5/file-explorer/package.json",
 		"/Users/nonnycode/Documents/lab/smashingNode/About packagedotjson",
 		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/Controlling Callback Flow",
-		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/",
-		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/Building and debugging."
+		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/"
 	],
 	"find":
 	{
@@ -460,15 +454,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1159,
+						"buffer_size": 1142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								684,
-								684
+								1078,
+								1078
 							]
 						],
 						"settings":
@@ -526,7 +520,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 316.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -543,15 +537,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 773,
+						"buffer_size": 736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								760,
-								760
+								643,
+								643
 							]
 						],
 						"settings":
@@ -850,11 +844,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/lab/sublime Projects/todo.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

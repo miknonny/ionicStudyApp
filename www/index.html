@@ -22,21 +22,18 @@
     <script src="js/app.js"></script>
   </head>
   
-  <body ng-app="starter" ng-controller="SlideCtrl">
-    <ion-slide-box>
-      <ion-slide>
-        <div class="box blue">
-          <button ng-click="nextSlide()">Next slide</button>
-          Slide index {{slideIndex()}}
-        </div>
-      </ion-slide>
-      <ion-slide>
-        <div class="box red">
-        <button ng-click="previousSlide()">previous</button>
-        Slide 2! {{slideCount()}}
-        </div>
-      </ion-slide>
-    </ion-slide-box>
+  <body ng-app="starter" ng-controller="ModalCtrl">
+    <button ng-click="openModal()">show modal</button>
+    <script id="my-modal.htm" type="text/ng-template">
+      <ion-modal-view>
+        <ion-header-bar>
+          <h1 class="title">My modal title</h1>
+        </ion-header-bar>
+        <ion-content>
+          hello
+        </ion-content>
+      </ion-modal-view>
+    </script>
   </body>
 </html>
 
