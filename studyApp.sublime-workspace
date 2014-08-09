@@ -1,0 +1,880 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$ioni",
+				"$ionicTabsDelegate"
+			],
+			[
+				"toggle",
+				"toggleLeft"
+			],
+			[
+				"project",
+				"projectString"
+			],
+			[
+				"modal",
+				"module._resolveLookupPaths(request, parent);"
+			],
+			[
+				"ngre",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"H1",
+				"h1"
+			],
+			[
+				"ion",
+				"ion-header-bar"
+			],
+			[
+				"ng",
+				"ng-app	AngularJS"
+			],
+			[
+				"font",
+				"font_face"
+			],
+			[
+				"nexus",
+				"nexusImages"
+			],
+			[
+				"superhero",
+				"superheroCtrl"
+			],
+			[
+				"v",
+				"views/"
+			],
+			[
+				"$oot",
+				"$rootScope"
+			],
+			[
+				"ng-c",
+				"ng-click	AngularJS"
+			],
+			[
+				"$rou",
+				"$routeProvider.when	AngularJS"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"consoe",
+				"console.log(message);"
+			],
+			[
+				"lo",
+				"console.log(message);"
+			],
+			[
+				"create",
+				"net.createServer();"
+			],
+			[
+				"parse",
+				"parseInt  (function)"
+			],
+			[
+				"set",
+				"setTimeout(function, milliseconds);"
+			],
+			[
+				"clear",
+				"clearInterval();"
+			],
+			[
+				"pa",
+				"passwd/"
+			],
+			[
+				"re",
+				"require  (function)"
+			],
+			[
+				"a",
+				"ac	appendChild"
+			],
+			[
+				"un",
+				"fs.unlink(path, callback);"
+			],
+			[
+				"node",
+				"node.http.createServer	Snippet: HTTP Create Server"
+			],
+			[
+				"fs",
+				"fs.unwatchFile(filename);"
+			],
+			[
+				"ng-re",
+				"ng-mouseover	AngularJS"
+			],
+			[
+				"post",
+				"postData"
+			],
+			[
+				"postD",
+				"postDataChunk"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"content",
+				"Content-Type"
+			],
+			[
+				"req",
+				"requestHandlers"
+			],
+			[
+				"pth",
+				"pathname"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"reso",
+				"response"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width\">\n    <title></title>\n\n    <link href=\"lib/ionic/css/ionic.css\" rel=\"stylesheet\">\n    <link href=\"css/style.css\" rel=\"stylesheet\">\n\n    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above\n    <link href=\"css/ionic.app.css\" rel=\"stylesheet\">\n    -->\n\n    <!-- ionic/angularjs js -->\n    <script src=\"lib/ionic/js/ionic.bundle.js\"></script>\n\n    <!-- cordova script (this will be a 404 during development) -->\n    <script src=\"cordova.js\"></script>\n\n    <!-- your app's js -->\n    <script src=\"js/app.js\"></script>\n  </head>\n  \n  <body ng-app=\"starter\" ng-controller=\"SlideCtrl\">\n    <ion-slide-box>\n      <ion-slide>\n        <div class=\"box blue\">\n          <button ng-click=\"nextSlide()\">Next slide</button>\n        </div>\n      </ion-slide>\n      <ion-slide>\n        <div class=\"box red\">\n        <button ng-click=\"previousSlide()\">previous</button>\n        Slide 2! \n        </div>\n      </ion-slide>\n    </ion-slide-box>\n  </body>\n</html>\n\n\n\n\n\n\n\n",
+			"file": "www/index.html",
+			"file_size": 1158,
+			"file_write_time": 130520677540000000,
+			"settings":
+			{
+				"buffer_size": 1159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// Ionic Starter App\n\n// angular.module is a global place for creating, registering and retrieving Angular modules\n// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)\n// the 2nd parameter is an array of 'requires'\nvar myApp = angular.module('starter', ['ionic']);\n\nmyApp.controller('SlideCtrl', ['$scope', '$ionicSlideBoxDelegate',\n  function ($scope, $ionicSlideBoxDelegate) {\n    \n    // Goes to the next Slide.\n    $scope.nextSlide = function () {\n      $ionicSlideBoxDelegate.next();\n    };\n\n    // Goes to the previous slide.\n    $scope.previousSlide = function () {\n      $ionicSlideBoxDelegate.previous();\n    };\n\n    $scope.slideCount = function () {\n      $ionicSlideBoxDelegate.slidesCount();\n    };\n  }\n]);\n\n\n\n\n",
+			"file": "www/js/app.js",
+			"file_size": 683,
+			"file_write_time": 130520677560000000,
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* Empty. Add your own CSS if you like */\n",
+			"file": "www/css/style.css",
+			"file_size": 42,
+			"file_write_time": 130516260730000000,
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"Git: ",
+				"Git: Stash"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.packages_path()",
+			"sublime.packages_path",
+			"sublime",
+			"print(\"mike\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nonnycode/Documents/lab/RESTANGULAR.js",
+		"/Users/nonnycode/Documents/lab/todo/www/lib/angular-mocks/angular-mocks.js",
+		"/Users/nonnycode/Documents/lab/todo/www/index.html",
+		"/Users/nonnycode/Documents/lab/todo/gulpfile.js",
+		"/Users/nonnycode/Documents/lab/myApp/www/index.html",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/index.html",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/partials/phone-detail.html",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/test/unit/controllersSpec.js",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/js/app.js",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/js/controllers.js",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/test/e2e/scenarios.js",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/partials/phone-list.html",
+		"/Users/nonnycode/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nonnycode/Documents/startups/README.md",
+		"/Users/nonnycode/Documents/startups/.gitignore",
+		"/Users/nonnycode/Documents/startups/.git/COMMIT_EDITMSG",
+		"/Users/nonnycode/Documents/lab/express/myapp/routes/index.js",
+		"/Users/nonnycode/Documents/lab/express/myapp/views/index.jade",
+		"/Users/nonnycode/Documents/lab/express/myapp/app.js",
+		"/Users/nonnycode/Documents/lab/express/expressguide/app.js",
+		"/Users/nonnycode/Documents/lab/express/expressguide/hello.js",
+		"/Users/nonnycode/Documents/lab/express/cli-app/app.js",
+		"/Users/nonnycode/Documents/lab/express/cli-app/bin/www",
+		"/Users/nonnycode/Documents/lab/express/cli-app/routes/index.js",
+		"/Users/nonnycode/Documents/lab/express/cli-app/views/index.ejs",
+		"/Users/nonnycode/Documents/lab/express/cli-app/bin/npm-debug.log",
+		"/Users/nonnycode/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/nonnycode/Documents/lab/hello-express/app.js",
+		"/Users/nonnycode/Documents/lab/hello-express/myapp/routes/index.js",
+		"/Users/nonnycode/Documents/lab/hello-express/package.json",
+		"/Users/nonnycode/Documents/lab/mongodb-tut/01 getting started",
+		"/Users/nonnycode/Documents/lab/mongodb-tut/mongodb crud introduction",
+		"/Users/nonnycode/Documents/lab/mongodb-tut/mongo.js",
+		"/Users/nonnycode/Documents/lab/mongodb-tut/.git/COMMIT_EDITMSG",
+		"/Volumes/C/Users/bl1ndfury/Desktop/cn4e-35.htm",
+		"/Volumes/C/Users/bl1ndfury/Documents/THE JOB/february spam/163.txt",
+		"/Volumes/C/Users/bl1ndfury/Documents/THE JOB/february spam/263.txt",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/scripts/controllers/main.js",
+		"/Users/nonnycode/Documents/lab/gulp-try/js/test.js",
+		"/Users/nonnycode/Documents/lab/gulp-try/gulpfile.js",
+		"/Users/nonnycode/Documents/lab/gulp-try/gruntfile.js",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/views/main.html",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/scripts/app.js",
+		"/Users/nonnycode/Documents/lab/angular-no-route/my-customer.html",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/views/my-customer.html",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/scopes.",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/styles/main.css",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Modules",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/A note on providers.",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Creating services.",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/views/another.html",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Injecting services to controllers",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Creating services",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Managing angular services",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Angualar services.",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Angular concepts.",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Templates",
+		"/Users/nonnycode/Documents/lab/angular-no-route/.editorconfig",
+		"/Users/nonnycode/Documents/lab/angular-no-route/app/index.html",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/filters",
+		"/Users/nonnycode/Documents/lab/angular-playground/app/scripts/app.js",
+		"/Users/nonnycode/Documents/lab/angular-playground/test/spec/controllers/main.js",
+		"/Users/nonnycode/Documents/lab/angular-playground/app/scripts/controllers/main.js",
+		"/Users/nonnycode/Documents/lab/angular-playground/app/views/main.html",
+		"/Users/nonnycode/Documents/lab/angular-playground/app/index.html",
+		"/Users/nonnycode/Documents/lab/angular-developers-guide/Controller.",
+		"/Users/nonnycode/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/nonnycode/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/nonnycode/Documents/lab/angular-playground/.jshintrc",
+		"/Users/nonnycode/Documents/lab/more-angular/.jshintrc",
+		"/Users/nonnycode/Documents/lab/more-angular/app/scripts/controllers/main.js",
+		"/Users/nonnycode/Documents/lab/more-angular/app/index.html",
+		"/Users/nonnycode/Documents/lab/more-angular/app/views/main.html",
+		"/Users/nonnycode/Documents/lab/more-angular/app/scripts/app.js",
+		"/Users/nonnycode/Documents/lab/more-angular/.editorconfig",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/js/filters.js",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/phones/phones.json",
+		"/Users/nonnycode/Documents/lab/angular-phonecat/app/js/directives.js",
+		"/Users/nonnycode/Documents/lab/phone-catalogue/app/views/main.html",
+		"/Users/nonnycode/Documents/lab/phone-catalogue/app/scripts/controllers/main.js",
+		"/Users/nonnycode/Documents/lab/phone-catalogue/.jshintrc",
+		"/Users/nonnycode/Documents/lab/phone-catalogue/.editorconfig",
+		"/Users/nonnycode/Documents/lab/phone-catalogue/Gruntfile.js",
+		"/Users/nonnycode/Documents/lab/test/spec/indent.js",
+		"/Users/nonnycode/Documents/lab/todo/app/scripts/services/catalog.js",
+		"/Users/nonnycode/Documents/lab/todo/app/index.html",
+		"/Users/nonnycode/Documents/lab/my-notes/Creating a new web application using yeoman.",
+		"/Users/nonnycode/Documents/lab/my-notes/MVC in angular.",
+		"/Users/nonnycode/Documents/lab/todo/app/views/main.html",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter12/mongodb.",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter11/socketIO",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter11/chat-app/chat.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter11/chat-app/index.html",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter11/chat-app/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter11/chat-app/server.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter11/chat-app/inde.html",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter10/websockets",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter10/websocket-app/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter10/websocket-app/echo.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter10/websocket-app/index.html",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter8/website/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter8/website/connect_site.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter8/Connect",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter8/website/node_modules/request-time.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter8/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/tweet-client/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/HTTP",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/server_form.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/client_form.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/server.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/client.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/form_web_server/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/form_web_server/form_server.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/read_img.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter7/pipe_image.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter6/Chpater7",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter6/TCP",
+		"/Users/nonnycode/Documents/lab/smashingNode/Using Node inspector",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter6/tcp-chat/index.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter6/tcp-chat/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter6/web-server.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter5/file-explorer/index.js",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter5/CLI and FS api",
+		"/Users/nonnycode/Documents/lab/smashingNode/Chapter5/file-explorer/package.json",
+		"/Users/nonnycode/Documents/lab/smashingNode/About packagedotjson",
+		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/Controlling Callback Flow",
+		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/",
+		"/Users/nonnycode/Documents/lab/profNodeJs/Chapter17/Building and debugging."
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2",
+			"dark",
+			"index",
+			"title",
+			"wind",
+			">\n",
+			"\n",
+			"abilities",
+			"customer",
+			"\"",
+			"$scope.bad = function () {\n		$scope.spice = 'bad';\n	}\n",
+			"{\n	\"name\": \"file-explorer\",\n	\"version\"; '0.0.1'\n	\"description\": \"A commandline file explorer\"\n}",
+			"	\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								684
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 316.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "www/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								760,
+								760
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "www/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 89.0
+	},
+	"project": "studyApp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 5
+	}
+}
