@@ -22,18 +22,25 @@
     <script src="js/app.js"></script>
   </head>
   
-  <body ng-app="starter" ng-controller="ModalCtrl">
-    <button ng-click="openModal()">show modal</button>
-    <script id="my-modal.htm" type="text/ng-template">
-      <ion-modal-view>
-        <ion-header-bar>
-          <h1 class="title">My modal title</h1>
-        </ion-header-bar>
-        <ion-content>
-          hello
-        </ion-content>
-      </ion-modal-view>
+  <body ng-app="starter" ng-controller="PopCtrl">
+    <p>
+      <button ng-click="openPopover($event)">Open Popover</button>
+    </p>
+
+    <script id="my-popover.html" type="text/ng-template">
+    <ion-popover-view>
+      <ion-header-bar>
+        <h1 class="title">My popover title</h1>
+      </ion-header-bar>
+      
+      <ion-content>
+        Hello!
+      </ion-content>
+
+    </ion-popover-view>
     </script>
+    
+
   </body>
 </html>
 

@@ -5,27 +5,23 @@
 // the 2nd parameter is an array of 'requires'
 var myApp = angular.module('starter', ['ionic']);
 
-myApp.controller('ModalCtrl', ['$scope', '$ionicModal',
-  function($scope, $ionicModal) {
-    $ionicModal.fromTemplateUrl('my-modal.htm', {
-      scope: $scope,
-      animation: 'slide-in-up'
+myApp.controller('PopCtrl', ['$scope', '$ionicPopover',
+  function($scope, $ionicPopover){
+    $ionicPopover.fromTemplateUrl('my-popover.html', {
+      scope: $scope
     })
-    .then(function (modal) {
-      $scope.modal = modal;
+    .then(function (popover) {
+      $scope.popover = popover;
     });
 
-    $scope.openModal = function () {
-      $scope.modal.show();
+    $scope.openPopover = function ($event) {
+      $scope.popover.show($event);
     };
 
-    $scope.closeModal = function () {
-      $scope.modal.hide();
+    $scope.closePopover = function () {
+      $scope.popover.hide();
     };
-  
   }
 ]);
-
-
 
 
