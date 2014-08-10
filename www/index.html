@@ -22,20 +22,14 @@
     <script src="js/app.js"></script>
   </head>
   
-  <body ng-app="starter"  ng-controller="PopCtrl" class="padding">
-    <button class="button button-dark" ng-click="showPopup()">
+  <body ng-app="starter"  ng-controller="LoadingCtrl" class="padding">
+    <button class="button button-dark" ng-click="show()">
       show
     </button>
-    <button class="button button-primary" ng-click="showConfirm()">
-      Confirm
-    </button>
-    <button class="button button-positive" ng-click="showAlert()">
-      Alert
+    <button class="button button-primary" ng-click="hide()">
+      Hide
     </button>
     
-    <script id="popup-template.html" type="text/ng-template">
-      <input ng-model="data.wifi" type="text" placeholder="Password">
-    </script>
   </body>
 </html>
 
